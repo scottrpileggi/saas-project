@@ -1,0 +1,27 @@
+.top-nav { 
+  display: flex; 
+  font-size: var(--size-14);
+  margin-top: var(--size-20);
+}
+
+.project-logo-container {
+  width: 9.938rem;
+  margin-left: var(--size-30);
+}
+
+.top-section ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: 29px;
+  color: var(--base-font);
+}
+
+.features-link { color: var(--blue); }
+
+.top-section a button {
+  margin-right: 45px;
+  width: 107px;
+  border: 1px solid transparent;
+}
