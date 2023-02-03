@@ -1,3 +1,20 @@
+.section-1 {
+  width: 1028px;
+  height: 532px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: relative;
+}
+
+.top-section-content {
+  padding: 10px 30px;
+}
+
+.top-section-content * {
+  z-index: 100;
+}
+
 .top-nav { 
   display: flex; 
   font-size: var(--size-14);
@@ -6,10 +23,9 @@
 
 .project-logo-container {
   width: 9.938rem;
-  margin-left: var(--size-30);
 }
 
-.top-section ul {
+.top-section-content ul {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -20,8 +36,198 @@
 
 .features-link { color: var(--blue); }
 
-.top-section a button {
-  margin-right: 45px;
+.topnav-btn {
+  margin-right: 15px;
   width: 107px;
   border: 1px solid transparent;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 40px 30px 0px;
+  gap: 10px;
+  width: 1024px;
+  height: 446px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.left-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 0px 60px;
+  gap: 30px;
+  width: 477px;
+  height: 406px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 11px;
+  width: 334px;
+  height: 172px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title span {
+  width: 334px;
+  height: 144px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.title p {
+  width: 334px;
+  height: 17px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--size-14);
+  line-height: 17px;
+  color: var(--base-font);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 477px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.actions > a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 8px;
+  width: 137px;
+  height: 48px;
+  border-radius: 30px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.actions > a > button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 8px;
+  padding: 15px 25px;
+  gap: 8px;
+  width: 137px;
+}
+
+.actions > a > button > i {
+  width: var(--size-18);
+  height: var(--size-18);
+  font-style: normal;
+  font-weight: 900;
+  font-size: var(--size-18);
+  line-height: var(--size-18);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.actions > a > button > span {
+  width: 61px;
+  height: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.features-link {
+  width: 78px;
+  height: 17px;
+  font-weight: 700;
+  font-size: var(--size-14);
+  line-height: 17px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.right-part {
+  width: 477px;
+  height: 406px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.lg-logo-container {
+  width: 80px;
+}
+
+.sm-logo-container {
+  width: 60px;
+}
+
+
+.top-section-bg {
+  position: absolute;
+  width: 1023.5px;
+  height: 517px;
+  left: 0.5px;
+  top: -1px;
+  z-index: 0;
+}
+
+.vector-2 {
+position: absolute;
+width: 316px;
+height: 443px;
+left: 711.5px;
+top: 0px;
+background: #E1E7EF;
+}
+
+.vector-1 {
+position: absolute;
+width: 884.5px;
+height: 517px;
+left: 0px;
+top: 0px;
+
+background:
+ linear-gradient(312.73deg,
+rgba(217, 217, 217, 0.44) 17.61%,
+rgba(217, 217, 217, 0) 55.85%);
 }
