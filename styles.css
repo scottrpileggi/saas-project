@@ -1,4 +1,5 @@
-.section-1 {
+/* Top Section - Start */
+.top-section {
   width: 1028px;
   height: 532px;
   flex: none;
@@ -252,26 +253,26 @@ top: 172px;
 
 .attlasian-icon {
   position: absolute;
-width: 80px;
-height: 80px;
-left: 175px;
-top: 10px;
+  width: 80px;
+  height: 80px;
+  left: 175px;
+  top: 10px;
 }
 
 .google-ads-icon {
   position: absolute;
-width: 60px;
-height: 60px;
-left: 155px;
-top: 290px;
+  width: 60px;
+  height: 60px;
+  left: 155px;
+  top: 290px;
 }
 
 .google-icon {
   position: absolute;
-width: 60px;
-height: 60px;
-left: 64px;
-top: 10px;
+  width: 60px;
+  height: 60px;
+  left: 64px;
+  top: 10px;
 }
 
 .top-section-bg {
@@ -284,12 +285,12 @@ top: 10px;
 }
 
 .vector-2 {
-position: absolute;
-width: 316px;
-height: 443px;
-left: 711.5px;
-top: 0px;
-background: #E1E7EF;
+  position: absolute;
+  width: 316px;
+  height: 443px;
+  left: 711.5px;
+  top: 0px;
+  background: #E1E7EF;
 }
 
 .vector-1 {
@@ -304,3 +305,195 @@ background:
 rgba(217, 217, 217, 0.44) 17.61%,
 rgba(217, 217, 217, 0) 55.85%);
 }
+/* Top Section - End */
+
+/* Key Benefits Section - Start */
+.key-benefits-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0px 80px;
+  gap: 60px;
+  width: 1024px;
+  height: 655px;
+}
+
+.benefits-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 434px;
+  height: 65px;
+}
+
+.key-benefits {
+  width: 160px;
+  height: 31px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.benefit-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 30px;
+  gap: 30px;
+  width: 1024px;
+  height: 330px;
+}
+
+.benefits-paragraph {
+  width: 434px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--base-font);
+}
+
+.benefit-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 30px;
+  gap: 30px;
+
+  width: 1024px;
+  height: 330px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+
+  width: 218.5px;
+  height: 310px;
+
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 178.5px;
+  height: 270px;
+}
+
+.responsive-1 {
+  width: 50px;
+  height: 50px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 91px;
+  height: 23px;
+}
+
+.card-title span {
+  width: 91px;
+  height: 19px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.title-with-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 140px;
+  height: 23px;
+}
+
+.title-with-icon button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 10px;
+  gap: 10px;
+
+  width: 60px;
+  height: 23px;
+
+  background: #01C9A7;
+  border: none;
+  border-radius: 15px;
+}
+
+.title-with-icon button a {
+  width: 40px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.item-content p {
+  width: 178.5px;
+  height: 120px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--base-font);
+}
+
+.item-content a {
+  width: 78px;
+  height: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2476FF;
+}
+
+
