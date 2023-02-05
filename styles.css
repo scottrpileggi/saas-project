@@ -1,5 +1,5 @@
 /* Top Section - Start */
-.top-section {
+#topSection {
   width: 1028px;
   height: 532px;
   flex: none;
@@ -35,8 +35,6 @@
   color: var(--base-font);
 }
 
-.features-link { color: var(--blue); }
-
 .topnav-btn {
   margin-right: 15px;
   width: 107px;
@@ -51,9 +49,6 @@
   gap: 10px;
   width: 1024px;
   height: 446px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .left-part {
@@ -65,10 +60,6 @@
   gap: 30px;
   width: 477px;
   height: 406px;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 1;
 }
 
 .title {
@@ -79,9 +70,6 @@
   gap: 11px;
   width: 334px;
   height: 172px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .title span {
@@ -91,10 +79,6 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
 .title p {
@@ -105,9 +89,6 @@
   font-size: var(--size-14);
   line-height: 17px;
   color: var(--base-font);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .actions {
@@ -118,10 +99,6 @@
   gap: 24px;
   width: 477px;
   height: 48px;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
 .actions > a {
@@ -133,9 +110,6 @@
   width: 137px;
   height: 48px;
   border-radius: 30px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .actions > a > button {
@@ -156,12 +130,6 @@
   font-weight: 900;
   font-size: var(--size-18);
   line-height: var(--size-18);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .actions > a > button > span {
@@ -169,28 +137,19 @@
   height: 15px;
   font-weight: 500;
   line-height: 15px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .features-link {
-  width: 78px;
   height: 17px;
   font-weight: 700;
   font-size: var(--size-14);
   line-height: 17px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  color: var(--blue);
 }
 
 .right-part {
   width: 477px;
   height: 406px;
-  flex: none;
-  order: 1;
-  flex-grow: 1;
   position: relative;
 }
 
@@ -229,26 +188,26 @@
 
 .calendar-icon {
   position: absolute;
-width: 80px;
-height: 80px;
-left: 364px;
-top: 310px;
+  width: 80px;
+  height: 80px;
+  left: 364px;
+  top: 310px;
 }
 
 .weave-icon {
   position: absolute;
-width: 80px;
-height: 80px;
-left: 262px;
-top: 172px;
+  width: 80px;
+  height: 80px;
+  left: 262px;
+  top: 172px;
 }
 
 .paypal-icon {
   position: absolute;
-width: 80px;
-height: 80px;
-left: 44px;
-top: 172px;
+  width: 80px;
+  height: 80px;
+  left: 44px;
+  top: 172px;
 }
 
 .attlasian-icon {
@@ -294,21 +253,21 @@ top: 172px;
 }
 
 .vector-1 {
-position: absolute;
-width: 884.5px;
-height: 517px;
-left: 0px;
-top: 0px;
+  position: absolute;
+  width: 884.5px;
+  height: 517px;
+  left: 0px;
+  top: 0px;
 
-background:
- linear-gradient(312.73deg,
-rgba(217, 217, 217, 0.44) 17.61%,
-rgba(217, 217, 217, 0) 55.85%);
+  background:
+  linear-gradient(312.73deg,
+  rgba(217, 217, 217, 0.44) 17.61%,
+  rgba(217, 217, 217, 0) 55.85%);
 }
 /* Top Section - End */
 
 /* Key Benefits Section - Start */
-.key-benefits-section {
+#keyBenefitsSection {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -370,14 +329,8 @@ rgba(217, 217, 217, 0) 55.85%);
   align-items: flex-start;
   padding: 10px 30px;
   gap: 30px;
-
   width: 1024px;
   height: 330px;
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
 .benefit-item {
@@ -386,12 +339,10 @@ rgba(217, 217, 217, 0) 55.85%);
   align-items: flex-start;
   padding: 20px;
   gap: 20px;
-
   width: 218.5px;
   height: 310px;
-
-  background: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  background: (var--white);
+  border: 1px solid var(--white);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -401,7 +352,6 @@ rgba(217, 217, 217, 0) 55.85%);
   align-items: flex-start;
   padding: 0px;
   gap: 20px;
-
   width: 178.5px;
   height: 270px;
 }
@@ -417,7 +367,6 @@ rgba(217, 217, 217, 0) 55.85%);
   align-items: center;
   padding: 0px;
   gap: 10px;
-
   width: 91px;
   height: 23px;
 }
@@ -425,7 +374,6 @@ rgba(217, 217, 217, 0) 55.85%);
 .card-title span {
   width: 91px;
   height: 19px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -449,34 +397,27 @@ rgba(217, 217, 217, 0) 55.85%);
   align-items: flex-start;
   padding: 4px 10px;
   gap: 10px;
-
   width: 60px;
   height: 23px;
-
   background: #01C9A7;
   border: none;
   border-radius: 15px;
 }
 
 .title-with-icon button a {
-  width: 40px;
+width: 40px;
 height: 15px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
 line-height: 15px;
-/* identical to box height */
-
-
-color: #FFFFFF;
+color: var(--white);
 }
 
 .item-content p {
   width: 178.5px;
   height: 120px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -493,7 +434,82 @@ color: #FFFFFF;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  color: #2476FF;
+  color: var(--blue);
+}
+/* Key Benefits Section - End */
+
+/* Header - Start */
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: absolute;
+  display: none;
+  width: 1024px;
+  height: 86px;
+  left: calc(50% - 1024px/2);
+  top: calc(50% - 86px/2 - 1883.5px);
+  background: var(--white);
+}
+/* Header - End */
+
+#bannerSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 30px 80px;
+  gap: 10px;
+  width: 1024px;
+  height: 550px;
 }
 
+.left-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 30px;
+  gap: 26px;
+  width: 450px;
+  height: 470px;
+}
+
+.left-part-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 11px;
+  width: 390px;
+  height: 62px;
+}
+
+.left-part-title span {
+  width: 390px;
+  height: 62px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  color: (var--black);
+}
+
+.right-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 10px;  
+  width: 504px;
+  height: 470px;
+}
+
+.banner-one {
+  width: 504px;
+  height: 353px;
+}
 
