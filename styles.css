@@ -685,3 +685,110 @@ color: var(--white);
   left: 0px;
   top: 0px;
 }
+/* Banner Play Section - End */
+
+/* Hub spot Section - Start */
+#hubspotSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+  width: 1024px;
+  height: 560px;
+}
+
+.left-part {
+  width: 452px;
+  height: 560px;
+  position: relative;
+}
+
+.woman-three {
+  position: absolute;
+  width: 371px;
+  height: 425px;
+  left: 81px;
+  top: 0px;
+  z-index: 1;
+}
+
+.dots {
+  position: absolute;
+  width: 200px;
+  height: 369.28px;
+  left: 28px;
+  top: 100px;
+}
+
+.right-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 30px 0px 0px;
+  gap: 50px;
+  width: 512px;
+  height: 560px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 482px;
+  height: 191.18px;
+}
+
+.hubspot-one {
+  width: 100px;
+  height: 33.18px;
+}
+
+.right-part span {
+  width: 482px;
+  height: 128px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 20px 100px 0px;
+  gap: 4px;
+  width: 147px;
+  height: 143px;
+}
+
+.person span {
+  width: 125px;
+  height: 22px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.person p {
+  width: 127px;
+  height: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--base-font);
+}
+/* Hub spot Section - End */
+
+
+
