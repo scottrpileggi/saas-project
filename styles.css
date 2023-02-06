@@ -628,6 +628,60 @@ color: var(--white);
   color: var(--black);
 }
 
-.left-wing-blank, .right-wing-blank {
-  background: none;
+.left-wing-blank, .right-wing-blank { background: none; }
+/* Why Front Section - End */
+
+/* Banner Play Section - Start */
+#bannerPlaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 30px 80px;
+  gap: 10px;
+  width: 1024px;
+  height: 497px;
+}
+
+.banner-frame {
+  width: 964px;
+  height: 497px;
+  position: relative;
+}
+
+.play-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 4px;
+  gap: 10px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 447px;
+  top: 172px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  z-index: 1;
+}
+
+.play {
+  width: 15px;
+  height: 20px;
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.banner-two {
+  position: absolute;
+  width: 964px;
+  height: 414px;
+  left: 0px;
+  top: 0px;
 }
