@@ -438,23 +438,7 @@ color: var(--white);
 }
 /* Key Benefits Section - End */
 
-/* Header - Start */
-#header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 30px;
-  position: absolute;
-  display: none;
-  width: 1024px;
-  height: 86px;
-  left: calc(50% - 1024px/2);
-  top: calc(50% - 86px/2 - 1883.5px);
-  background: var(--white);
-}
-/* Header - End */
-
+/* Banner Section - Start */
 #bannerSection {
   display: flex;
   flex-direction: row;
@@ -512,4 +496,138 @@ color: var(--white);
   width: 504px;
   height: 353px;
 }
+/* Banner Section - End */
 
+/* Why Front Section - Start */
+#whyFrontSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 80px;
+  gap: 40px;
+  width: 1024px;
+  height: 354px;
+}
+
+.why-front-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 600px;
+  height: 89px;
+}
+
+.why-front-title span {
+  width: 141px;
+  height: 31px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: var(--black);
+}
+
+.why-front-title p {
+  width: 600px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--base-font);
+}
+
+.bullet-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 34px;
+  width: 1024px;
+  height: 145px;
+}
+
+.bullet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 0px;
+  gap: 24px;
+  width: 239px;
+  height: 145px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 239px;
+  height: 50px;
+}
+
+.left-wing {
+  width: 90.5px;
+  height: 1px;
+  background: #E6E9F2;
+}
+
+.bullet-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 50px;
+  height: 50px;
+  background: #ECF2FF;
+  border-radius: 25px;
+}
+
+.bullet-circle-inner {
+  width: 6px;
+  height: 6px;
+  background: #0066FF;
+  border-radius: 3px;
+}
+
+.right-wing {
+  width: 90.5px;
+  height: 1px;
+  background: #E6E9F2;
+}
+
+.bullet-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 4px;
+  width: 239px;
+  height: 19px;
+}
+
+.bullet-title span {
+  width: 116px;
+  height: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--black);
+}
+
+.left-wing-blank, .right-wing-blank {
+  background: none;
+}
