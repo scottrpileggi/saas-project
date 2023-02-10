@@ -1097,3 +1097,161 @@ color: var(--white);
   line-height: 22px;
   color: var(--base-font);
 }
+/* Pricing Section - End */
+
+/* Hire Us Section - Start */
+#hireUsSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 1029px;
+  height: 708px;
+  background: #20335B;
+}
+
+.hire-us-leftpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 0px 0px 70px;
+  gap: 60px;
+  width: 514.5px;
+  height: 708px;
+}
+
+.left-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 363px;
+  height: 204px;
+}
+
+.hire-us-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 34px;
+  width: 180px;
+  height: 124px;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 180px;
+  height: 89px;
+}
+
+.title-div span {
+  width: 92px;
+  height: 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: var(--white);
+}
+
+.title-div p {
+  width: 180px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #677788;
+}
+
+.divider {
+  width: 172px;
+  height: 1px;
+  border-bottom: 2px solid #677788;
+}
+
+.phrase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 363px;
+  height: 48px;
+}
+
+.phrase span {
+  width: 363px;
+  height: 48px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.left-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 50px;
+  width: 208px;
+  height: 153px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 20px 0px 0px;
+  gap: 4px;
+  width: 208px;
+  height: 43px;
+}
+
+.person span {
+  width: 144px;
+  height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--white);
+}
+
+.person p {
+  width: 188px;
+  height: 17px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--base-font);
+}
+
+.personal-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  width: 200px;
+  height: 60px;
+}
+
+.woman-two, .woman-one {
+  width: 40px;
+  height: 40px;
+}
+
+.woman-two img, .woman-one img { border-radius: 20px; }
+
+.man-one {
+  width: 60px;
+  height: 60px;
+}
+
+.man-one img { border-radius: 30px; }
+
