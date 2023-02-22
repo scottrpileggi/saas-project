@@ -67,10 +67,22 @@
         </div>
       </div>
       <div class="top-section-bg">
-        <div class="vector-2"></div>
-        <div class="vector-1"></div>
+        <svg class="vector-1" fill="green" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <polygon id="myPolygon" points="180,0 0,0 0, 100 140, 82.5" />
+            <linearGradient id="myGradient" gradientTransform="rotate(45)">
+              <stop offset="40%" stop-color="rgba(217, 217, 217, 0)" />
+              <stop offset="100%" stop-color="rgba(217, 217, 217, 0.44)" />
+            </linearGradient>
+          </defs>
+          <use x="5" y="5" href="#myPolygon" fill="url('#myGradient')" />
+        </svg>  
+        <svg class="vector-2" fill="#E1E7EF" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="10,155 70, 0 200, -350 200, 130" />
+        </svg>
       </div>
     </section>
+    
     <section id="keyBenefitsSection">
       <div class="benefits-title">
         <span class="key-benefits">Key Benefits</span>
