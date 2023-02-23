@@ -249,10 +249,6 @@
   position: absolute;
   left: -25px;
   top: -25px;
-  background-image: none;
-  linear-gradient(312.73deg,
-  rgba(217, 217, 217, 0.44) 17.61%,
-  rgba(217, 217, 217, 0) 55.85%);
 }
 
 
@@ -331,9 +327,15 @@
   gap: 20px;
   width: 218.5px;
   height: 310px;
-  background: (var--white);
+  background: var(--white);
   border: 1px solid var(--white);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.benefit-item:hover {
+  background: #F0F8FF;
+  border: #F0F8FF;
 }
 
 .item-content {
@@ -1313,17 +1315,15 @@ color: var(--white);
 }
 
 .form-group select {
+  position: relative;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
   padding: 10px 16px 10px 10px;
   gap: 10px;
   width: 186px;
   height: 44px;
   border: 1px solid #E6E8F2;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .text-area textarea {
