@@ -14,6 +14,10 @@
   position: relative;
 }
 
+[aria-controls="navbarDropdown"] {
+  display: none;
+}
+
 .top-nav { 
   display: flex; 
   font-size: var(--size-14);
@@ -241,7 +245,7 @@
     width: 402px;
     height: 452px;
     left: 692px;
-    top: 0px;
+    top: 0;
     z-index: 1;
 }
 
