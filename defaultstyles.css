@@ -32,11 +32,13 @@ body {
   letter-spacing: 0;
   margin: 0;
   padding: 0;
-
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
+  align-items: flex-start;
+  padding: 0px;
+  isolation: isolate;
+  max-width: var(--size-1024);
+  margin: auto;
 }
 
 *,

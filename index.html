@@ -15,10 +15,10 @@
   <body>
     <section id="topSection">
       <header class="top-section-content">
-        <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
-          <span>&#9776;</span>
-        </button>
         <nav class="top-nav">
+          <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+            <span>&#9776;</span>
+          </button>
           <a href="/index.html">
           <div class="project-logo-container">
             <img src="/saas-project-assets/project_logo/logo.svg" alt="Home logo">
@@ -30,8 +30,8 @@
           <a href="#">Learn</a>
           <a href="#">Pricing</a>
           <a href="#">Hire us</a>
-          </ul>
           <a href="#"><button class="btn-blue topnav-btn">Buy Now</button></a>
+          </ul>
         </nav>
       </header>
       <div class="hero-section">
@@ -535,5 +535,15 @@
         </div>
       </div>
     </footer>
+    <script>
+      const navButton = document.querySelector('button[aria-expanded]');
+
+        function toggleNav({ target }) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navButton.setAttribute('aria-expanded', !expanded);
+}
+
+        navButton.addEventListener('click', toggleNav);
+    </script>
   </body>
 </html>

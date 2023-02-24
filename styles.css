@@ -14,6 +14,21 @@
   position: relative;
 }
 
+.navbar-toggler {
+  position: absolute;
+  right: var(--size-10);
+  top: var(--size-40);
+  outline: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.navbar-toggler span {
+  font-size: var(--size-30);
+  cursor: pointer;
+  pointer-events: none;
+}
+
 [aria-controls="navbarDropdown"] {
   display: none;
 }
@@ -38,9 +53,10 @@
 }
 
 .topnav-btn {
-  margin-right: var(--size-15);
   width: 107px;
   border: 1px solid transparent;
+  position: relative;
+  left: 20px;
 }
 
 .hero-section {
