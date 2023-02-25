@@ -17,7 +17,6 @@
 .navbar-toggler {
   position: absolute;
   right: var(--size-10);
-  top: var(--size-40);
   outline: none;
   background-color: transparent;
   border: 1px solid transparent;
@@ -43,7 +42,7 @@
   width: 9.938rem;
 }
 
-.top-section-content ul {
+.list-class {
   display: flex;
   align-items: center;
   gap: var(--size-20);
