@@ -46,9 +46,49 @@
     width: 145px;
     border-radius: 30px;
   }
-}
 
 .topnav-btn {left: 0px;}
+
+.hero-section {
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-left-part {
+  align-items: center;
+  text-align: center;
+}
+
+.actions { margin-left: 240px; }
+
+.right-part {
+  position: relative;
+  bottom: 49px;
+  left: 26px;
+}
+
+.google-icon {
+  top: var(--size-40);
+  left: 0;
+}
+.attlasian-icon, .asana-icon { top: var(--size-50); }
+.paypal-icon {
+  left: 0;
+  top: 135px;
+}
+.weave-icon {
+  left: 288px;
+  top: 139px;
+}
+.google-ads-icon {
+  left: 114px;
+  top: 220px;
+}
+.calendar-icon {
+  left: 378px;
+  top: 247px;
+}
+}
 
 @media (min-width: 992px) {
 
