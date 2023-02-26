@@ -20,6 +20,7 @@
   outline: none;
   background-color: transparent;
   border: 1px solid transparent;
+  z-index: 1;
 }
 
 .navbar-toggler span {
@@ -38,6 +39,10 @@
   margin-top: var(--size-20);
 }
 
+.project-anchor {
+  z-index: 1;
+}
+
 .project-logo-container {
   width: 9.938rem;
 }
@@ -48,7 +53,12 @@
   gap: var(--size-20);
   margin-left: auto;
   margin-right: var(--size-30);
-  color: var(--base-font);
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .topnav-btn {
@@ -74,7 +84,6 @@
   align-items: flex-start;
   padding: 0px 0px 60px;
   gap: var(--size-30);
-  z-index: 1;
 }
 
 .title {
@@ -252,7 +261,7 @@
   height: 620px;
   left: 0.5px;
   top: -1px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .vector-2 {
@@ -505,6 +514,7 @@ color: var(--white);
   gap: var(--size-10);
   width: 504px;
   height: 470px;
+  z-index: 0;
 }
 
 .banner-one {
