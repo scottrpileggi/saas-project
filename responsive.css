@@ -1,5 +1,6 @@
 /* iPads + tablets - portrait  */
 @media screen and (max-width: 768px) {
+/* Top Section - Start */
   [aria-controls="navbarDropdown"] { 
     display: block;
   }
@@ -9,7 +10,7 @@
   [aria-expanded="true"] ~ ul {
     display: block;
     width: 1097px;
-    height: 681px;
+    height: 745px;
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -59,9 +60,9 @@
   text-align: center;
 }
 
-.actions { margin-left: 240px; }
+.actions-768 { margin-left: 240px; }
 
-.right-part {
+.hero-right-part {
   position: relative;
   bottom: 49px;
   left: 26px;
@@ -88,6 +89,42 @@
   left: 378px;
   top: 247px;
 }
+
+/* Top Section - End */
+
+/* Key Benefits Section - Start */
+#keyBenefitsSection { margin-top: 155px; }
+
+.benefit-list { flex-wrap: wrap; }
+
+.item-content p { width: 275px; }
+
+.benefit-item {
+  width: 339px;
+  height: 262px;
+}
+
+.item-content {
+  width: 299px;
+  height: 222px;
+}
+/* Key Benefits Section - End */
+
+/* Banner Section - Start */
+.banner-section-content {
+  margin-top: 235px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-part-title { text-align: center;}
+
+.banner-actions {
+  justify-content: center;
+  width: 390px;
+}
+
+
 }
 
 @media (min-width: 992px) {
