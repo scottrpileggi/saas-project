@@ -1,5 +1,5 @@
 /* iPads + tablets - portrait  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
 /* Top Section - Start */
   [aria-controls="navbarDropdown"] { 
     display: block;
@@ -36,19 +36,10 @@
     gap: 73px;
   }
 
-  .list-container * {
-    font-size: var(--size-20);
-  }
-
   .topnav-btn {
-    font-size: 18px;
     margin-top: 50px;
-    height: 60px;
-    width: 145px;
-    border-radius: 30px;
+    left: 0px;
   }
-
-.topnav-btn {left: 0px;}
 
 .hero-section {
   flex-direction: column;
@@ -111,10 +102,14 @@
 /* Key Benefits Section - End */
 
 /* Banner Section - Start */
+#bannerSection {justify-content: center;}
+
 .banner-section-content {
   margin-top: 235px;
   flex-direction: column;
   align-items: center;
+  width: 788px;
+  height: 180px;
 }
 
 .left-part-title { text-align: center;}
@@ -124,7 +119,26 @@
   width: 390px;
 }
 
+.banner-right-part {
+  align-items: center;
+  z-index: -1;
+  position: relative;
+  bottom: 33px;
+}
 
+.banner-one {
+  width: 788px;
+  position: relative;
+  left: 15px;
+}
+/* Banner Section - End */
+
+/* Why Front Section - Start */
+#whyFrontSection {
+  background-color: var(--white);
+  padding-top: 50px;
+  margin-top: 257px;
+}
 }
 
 @media (min-width: 992px) {
