@@ -169,6 +169,36 @@
 /* brands Section - Start */
 #brandsSection { margin-top: var(--size-60); }
 /*brands Section - End */
+
+/*pricing Section - Start */
+.plans-features-list {
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan {
+  width: 80%;
+  align-items: center;
+  text-align: center;
+}
+
+.plan-divider { width: 660px; }
+
+.plan-header { align-items: center; }
+
+.plan-header p {
+  width: 586px;
+  text-align: left;
+}
+
+.row-one, .row-two { 
+  gap: var(--size-150); 
+  align-items: flex-start;
+}
+
+.plan-content p { width: 262px; }
+
+.plan-features { margin-right: 185px; }
 }
 
 
