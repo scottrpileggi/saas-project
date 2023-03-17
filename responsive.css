@@ -91,8 +91,9 @@
 .item-content p { width: 275px; }
 
 .benefit-item {
-  width: 339px;
+  width: 378px;
   height: 262px;
+  align-items: center;
 }
 
 .item-content {
@@ -139,7 +140,32 @@
   padding-top: 50px;
   margin-top: 257px;
 }
+/* Why Front Section - End */
+
+/* hubSpot Section - Start */
+
+#hubspotSection { 
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 300px;
 }
+
+.woman-three {
+  position: relative; 
+  left: 0;
+}
+
+.hubspot-right {
+  align-items: center;
+  text-align: center;
+}
+
+.dots {
+  left: -25px;
+  top: 112px;
+}
+}
+
 
 @media (min-width: 992px) {
 
