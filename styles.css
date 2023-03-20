@@ -1190,7 +1190,7 @@ color: var(--white);
 }
 
 .title-div p {
-  width: 180px;
+  width: 173px;
   height: 48px;
   font-weight: 500;
   font-size: var(--size-16);
@@ -1778,6 +1778,9 @@ footer {
   text-align: center;
   color: lightslategrey;
 }
+/* Footer - End */
+
+
 
 
 
