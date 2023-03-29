@@ -335,7 +335,10 @@
 /* Why Front - End */
 
 /* Banner Play Section - Start */
-#bannerPlaySection { margin-top: 250px; }
+#bannerPlaySection { 
+  margin-top: 250px;
+  height: 150px;
+ }
 
 .banner-frame { margin-left: 295px; }
 
@@ -345,4 +348,28 @@
 }
 
 .banner-two { width: 358px; }
+/*Banner Play Section - End */
+
+/* Hubspot Section - Start */ 
+.hubspot-left { left: 50px; }
+
+.woman-three {
+  width: 262px;
+  height: 300px;
+}
+
+.dots {
+  width: 158px;
+  left: -10px;
+  top: 54px;
+}
+
+.hubspot-right span { width: 320px; }
+
+.person-christina span {
+   width: 130px; 
+   margin-top: var(--size-10);
+  }
+
+
 }
