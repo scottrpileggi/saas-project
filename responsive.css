@@ -5,6 +5,7 @@
   [aria-controls="navbarDropdown"] { 
     display: block;
   }
+
   [aria-expanded="false"] ~ ul {
     display: none;
   }
@@ -64,7 +65,9 @@
   top: var(--size-40);
   left: 0;
 }
+
 .attlasian-icon, .asana-icon { top: var(--size-50); }
+
 .paypal-icon {
   left: 0;
   top: 135px;
@@ -264,14 +267,12 @@
 
 .site-map { width: 214px; }
 }
-
-
-
-
+/* Footer - End */
 
 @media (max-width: 767px) {
 
 /* Top Section - Start */
+
 .project-anchor { margin-left: 240px; }
 
 .navbar-toggler { margin-right: 275px; }
@@ -295,6 +296,47 @@
 }
 
 .top-section-bg { left: -134px; }
+
+.blocker-1 {
+  height: 100px;
+  width: 100px;
+  color: red;
+}
+
+.blocker-2 {
+  height: 100px;
+  width: 100px;
+  color: red;
+}
+
+.google-icon {
+  top: 13px;
+  left: 42px;
+}
+
+.attlasian-icon { top: 13px; 
+}
+.asana-icon {
+  left: 316px;
+  top: 0;
+}
+
+.paypal-icon {
+  left: 60px;
+  top: 102px;
+}
+.weave-icon {
+  top: 98px;
+  left: 265px;
+}
+.google-ads-icon {
+  left: 169px;
+  top: 197px;
+}
+.calendar-icon {
+  left: 320px;
+  top: 202px;
+}
 /*Hero Section - End */
 
 /* Key Benefits Section - Start */
@@ -532,5 +574,5 @@
 }
 
 .frame-13 p { width: 340px; }
+/* Footer - End */
 }
-
