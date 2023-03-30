@@ -351,13 +351,14 @@
 /*Banner Play Section - End */
 
 /* Hubspot Section - Start */ 
+#hubspotSection { margin-bottom: 125px; }
+
 .hubspot-left { left: 50px; }
 
 .woman-three {
   width: 262px;
   height: 300px;
 }
-
 .dots {
   width: 158px;
   left: -10px;
@@ -370,6 +371,46 @@
    width: 130px; 
    margin-top: var(--size-10);
   }
+/* Hubspot Section - End */ 
 
+/* Brands Section - Start */
+#brandsSection { 
+  margin-bottom: 285px;
+  margin-top: var(--size-40);
+ }
 
+ .brand-title { margin-bottom: 35px; }
+
+.brand-title span { width: 286px; }
+
+.brands-list {
+  align-items: center;
+  flex-direction: column;
+  gap: 28px;
+}
+/* Brands Section - End */
+
+/* Pricing Section - Start */
+#pricingSection { margin-bottom: 450px; }
+
+.plan-features { margin-left: 370px; }
+
+.plan { width: 328px; }
+
+.plan-content p { width: 312px; }
+
+.plan-divider { width: 300px; }
+
+.plan-header p { width: 248px; }
+
+.row-one {
+  flex-direction: column;
+  gap: 0;
+}
+
+.row-two {
+  flex-direction: column;
+  margin-top: 200px;
+  gap: 0;
+}
 }
