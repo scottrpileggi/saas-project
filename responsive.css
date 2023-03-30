@@ -432,7 +432,7 @@
   margin-left: 80px;
 }
 
-.phrase-span { text-align: center; }
+.phrase span { text-align: center; }
 
 .divider {
   position: relative;
@@ -476,6 +476,8 @@
 
 .menu-item { justify-content: center; }
 
+.link-column span { text-align: center; }
+
 .bottom-link-container {
   flex-direction: column;
   flex-wrap: nowrap;
@@ -483,5 +485,52 @@
 }
 
 .link-column, .link-column ul { align-items: center; }
+
+.frame-3 {
+  width: 328px;
+  margin-left: 342px;
+  padding-left: 60px;
+}
+
+.frame-12 {
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 50px;
+}
+
+.frame-4 {
+  right: 0;
+  align-items: center;
+}
+
+.site-map { width: 125px;}
+
+.social-list {
+  right: 0;
+  flex-wrap: wrap;
+  max-width: 227px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.select-frame {
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+.frame-13 {
+  margin-top: 70px;
+  gap: 50px;
+  margin-right: 50px;
+}
+
+#doc { width: 140px; }
+
+.frame-13 span {
+  width: 337px;
+  text-align: center;
+}
+
+.frame-13 p { width: 340px; }
 }
 
