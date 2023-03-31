@@ -14,6 +14,11 @@
   position: relative;
 }
 
+#xIcon {
+  font-size: 35px;
+  display: none;
+}
+
 .navbar-toggler {
   position: absolute;
   right: var(--size-10);
@@ -29,6 +34,12 @@
   pointer-events: none;
 }
 
+.ghost-hamburger {
+  display: none;
+  font-size: var(--size-30);
+  position: relative;
+  left: 675px;
+}
 [aria-controls="navbarDropdown"] {
   display: none;
 }
