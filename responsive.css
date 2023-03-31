@@ -1,7 +1,13 @@
 /* iPads + tablets - portrait  */
 @media screen and (max-width: 1023px) {
-  body { margin-left: 77px; }
+  body { 
+    position: relative;
+    right: 128px;
+  }
 /* Top Section - Start */
+.project-logo-container { margin-left: 135px; }
+.navbar-toggler { margin-right: 150px; }
+
   [aria-controls="navbarDropdown"] { display: block; }
 
   [aria-expanded="false"] ~ ul { display: none; }
@@ -29,7 +35,10 @@
   
   .list-container {
     gap: 73px;
+    margin-right: 65px;
   }
+
+  .dropdown-button { margin-right: 65px; }
 
   .topnav-btn {
     margin-top: 50px;
@@ -53,6 +62,8 @@
   bottom: 49px;
   left: 26px;
 }
+
+.top-section-bg { left: -75px; }
 
 .google-icon {
   top: var(--size-40);
@@ -87,7 +98,7 @@
 .item-content p { width: 275px; }
 
 .benefit-item {
-  width: 378px;
+  width: 340px;
   height: 262px;
   align-items: center;
 }
@@ -105,7 +116,7 @@
   margin-top: 235px;
   flex-direction: column;
   align-items: center;
-  width: 788px;
+  width: 712px;
   height: 180px;
 }
 
@@ -124,7 +135,7 @@
 }
 
 .banner-one {
-  width: 788px;
+  width: 712px;
   position: relative;
   left: 15px;
 }
@@ -136,7 +147,19 @@
   padding-top: 50px;
   margin-top: 257px;
 }
+.bullet { width: 200px; }
+.bullet-1 { margin-left: 82px; }
 /* Why Front Section - End */
+
+/*Banner Play Section - Start */
+#bannerPlaySection { height: 395px; }
+
+.banner-two {
+  width: 720px;
+  margin-left: 122px;
+  margin-top: 45px;
+}
+/*Banner Play Section - End */
 
 /* hubSpot Section - Start */
 #hubspotSection { 
@@ -165,6 +188,11 @@
 
 /* brands Section - Start */
 #brandsSection { margin-top: var(--size-60); }
+
+.brands-list {
+  gap: 40px;
+  justify-content: center;
+}
 /* Brands Section - End */
 
 /* Pricing Section - Start */
@@ -227,7 +255,12 @@
 /* Hire Us Section - End */
 
 /* Footer - Start */
-.frame-2 { margin-left: 175px; }
+footer {
+  position: relative;
+  right: 48px;
+}
+
+.frame-2 { margin-left: 225px; }
 
 .bottom-link-container {
   flex-wrap: wrap;
