@@ -296,24 +296,33 @@ footer {
 /* Footer - End */
 
 @media (max-width: 767px) {
-
+body { right: 333px; }
 /* Top Section - Start */
-[aria-controls="navbarDropdown"] { color: transparent; }
+.project-logo-container { margin-left: 50px; }
+
+.navbar-toggler {
+   color: transparent; 
+   margin-right: 328px;
+}
 
 #xIcon {
   display: block;
   position: relative;
   bottom: 397px;
-  left: 210px;
+  left: 158px;
+  color: var(--base-font);
 }
 
-.ghost-hamburger { display: block; }
+.ghost-hamburger { 
+  display: block; 
+  left: 626px;
+}
 
 [aria-expanded="true"] ~ .navbar-toggler { color: transparent; }
 
-.project-anchor { margin-left: 240px; }
+.list-container, .dropdown-button { margin-right: 0; }
 
-.navbar-toggler { margin-right: 275px; }
+.project-anchor { margin-left: 240px; }
 
 .list-container {
   flex-direction: column; 
@@ -331,31 +340,27 @@ footer {
 /*Hero Section - Start */
 .hero-right-part { z-index: 0; }
 
+.title {
+  gap: 0;
+  height: 130px;
+}
+
 .title span {
   width: 425px;
   position: relative;
   right: 50px;
+  font-size: 27px;
+  margin-left: 10px;
+  line-height: 33px;
 }
 
-.top-section-bg { left: -134px; }
-
-.blocker-1 {
-  background-color: var(--white);
-  position: absolute;
-  top: 0;
-  left: -79px;
-  height: 500px;
-  width: 329px;
+.title p {
+  width: 306px;
+  margin-left: 15px;
+  height: 33px;
 }
 
-.blocker-2 {
-  background-color: var(--white);
-  position: absolute;
-  top: 0;
-  left: 768px;
-  height: 495px;
-  width: 329px;
-}
+.top-section-bg { left: -212px; }
 
 .google-icon {
   top: 13px;
@@ -388,15 +393,21 @@ footer {
 /*Hero Section - End */
 
 /* Key Benefits Section - Start */
-#keyBenefitsSection { margin-bottom: 565px; }
+#keyBenefitsSection { 
+  margin-bottom: 565px; 
+  margin-top: 56px;
+  margin-left: 8.5px;
+}
 
 .benefits-paragraph { width: 324px; }
 
-.benefit-list { max-width: 845px; }
+.benefit-list { max-width: 500px; }
 
 /* Key Benefits Section - End */
 
 /* Banner Section - Start */
+#bannerSection { margin-left: 10px; }
+
 .banner-section-content { width: 408px; }
 
 .banner-one { 
@@ -406,20 +417,50 @@ footer {
 /* Banner Section - End */
 
 /* Why Front - Start */
-#whyFrontSection { margin-top: 0; }
+#whyFrontSection {
+   margin-top: 0;
+   margin-left: 0;
+   }
 
 .why-front-title p { width: 280px; }
 
 .bullet-list {
   flex-direction: column;
   align-items: center;
-  margin-right: 70px;
+  margin-right: 46px;
 }
+
+.basic-elements {
+  position: relative;
+  right: 32px;
+}
+
+.components-div {
+  width: 136px;
+  position: relative;
+  right: 21px;
+}
+
+.page-layouts-div {
+  position: relative;
+  right: 39px;
+}
+
+
+
+.bullet-title { padding: 0; }
+
+.bullet-title span { width: 178px; }
 
 .bullet { 
   flex-direction: row;
   width: 210px;
+  justify-content: flex-start; 
 }
+
+.bullet-1 { margin-left: 0; }
+
+.page-layouts { width: 135px; }
 
 .left-wing, .right-wing, .left-wing-blank { display: none; }
 /* Why Front - End */
@@ -437,7 +478,11 @@ footer {
   top: 40px;
 }
 
-.banner-two { width: 358px; }
+.banner-two { 
+  width: 358px; 
+  margin-top: 0;
+  margin-left: 16px;
+}
 /*Banner Play Section - End */
 
 /* Hubspot Section - Start */ 
@@ -465,7 +510,7 @@ footer {
 
 /* Brands Section - Start */
 #brandsSection { 
-  margin-bottom: 285px;
+  margin-bottom: 185px;
   margin-top: var(--size-40);
  }
 
@@ -477,11 +522,20 @@ footer {
   align-items: center;
   flex-direction: column;
   gap: 28px;
+  margin-top: 62px;
 }
 /* Brands Section - End */
 
 /* Pricing Section - Start */
-#pricingSection { margin-bottom: 450px; }
+#pricingSection { 
+  margin-bottom: 450px;
+  margin-left: 8px;
+ }
+
+ .pricing-title {
+  position: relative;
+  right: 5px;
+ }
 
 .plan-features { margin-left: 370px; }
 
@@ -507,7 +561,7 @@ footer {
 /*Hire Us Section - Start */
 #hireUsSection { 
   width: 362px;
-  margin-left: 350px; 
+  margin-left: 340px;
   border-bottom: 1350px solid #20335B;
 }
 
@@ -555,6 +609,11 @@ footer {
 /* Hire Us Section - End */
 
 /* Footer - start */
+footer {
+  position: relative;
+  right: 10px;
+}
+
 .frame-2 {
   flex-direction: column;
   align-items: center;
@@ -578,7 +637,7 @@ footer {
 
 .frame-3 {
   width: 328px;
-  margin-left: 342px;
+  margin-left: 332px;
   padding-left: 60px;
 }
 
