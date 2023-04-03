@@ -1,5 +1,13 @@
 /* iPads + tablets - portrait  */
 @media screen and (max-width: 1023px) {
+body, html {
+  width: 900px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
   body { 
     position: relative;
     right: 128px;
@@ -232,6 +240,8 @@
   flex-direction: column;
   align-items: center;
   height: 962px;
+  width: 768px;
+  margin-left: 129px;
 }
 
 .hire-us-leftpart {
@@ -296,7 +306,10 @@ footer {
 /* Footer - End */
 
 @media (max-width: 767px) {
-body { right: 333px; }
+body { 
+  right: 333px; 
+  width: 714px;
+}
 /* Top Section - Start */
 .project-logo-container { margin-left: 50px; }
 
@@ -612,6 +625,7 @@ body { right: 333px; }
 footer {
   position: relative;
   right: 10px;
+  width: 0;
 }
 
 .frame-2 {
@@ -683,3 +697,5 @@ footer {
 .frame-13 p { width: 340px; }
 /* Footer - End */
 }
+
+/*for commit*/
